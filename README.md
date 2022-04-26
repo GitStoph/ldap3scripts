@@ -7,7 +7,7 @@ Why? Because you're not always going to have Powershell/RSAT on your box.
 ## Installation of Project:
 ```
 cd /opt
-git clone whateverprojectURLis
+git clone git@github.com:GitStoph/ldap3scripts.git
 cd ldap3scripts
 python3 -m pip install -r requirements.txt
 cp /opt/ldap3scripts/ulu.py /usr/local/bin/ulu
